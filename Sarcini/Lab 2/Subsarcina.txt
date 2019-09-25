@@ -1,0 +1,45 @@
+﻿Configurarea mediului dvs. Python pentru Machine Learning poate fi o sarcină dificilă. 
+Dacă nu ați configurat niciodată așa ceva înainte, puteți petrece ore întregi 
+cu diferite comenzi încercând să funcționeze. Vrem doar să ajungem direct la ML!
+În acest tutorial, veți învăța cum să configurați un mediu stabil de 
+dezvoltare Python Machine Learning. Veți putea să vă descurcați direct 
+în ML și niciodată să nu vă faceți griji cu 
+privire la instalarea pachetelor niciodată.
+
+(1) Configurați Python 3 și Pip (pentru windows, accesati: https://phoenixnap.com/kb/install-pip-windows)
+Primul pas este instalarea pip, un manager de pachete Python:
+	"sudo apt-get install python3-pip"
+Utilizând pip, vom putea instala orice pachet Python care este indexat în 
+Indexul pachetului Python cu o simplă comandă "pip install your_package". 
+Veți vedea în curând cum îl utilizăm pentru a configura și mediul nostru virtual.
+
+(2) Creează un mediu virtual (pentru windows accesati: https://timmyreilly.azurewebsites.net/python-pip-virtualenv-installation-on-windows/)
+Acum vom configura un mediu virtual. Acolo, vom instala toate pachetele 
+python de care avem nevoie pentru învățare automată.
+Folosim medii virtuale pentru a separa setările noastre de codare. 
+Imaginează-ți dacă la un moment dat ai fi dorit să faci 2 proiecte diferite 
+pe computerul tău, care necesită biblioteci diferite de versiuni diferite. 
+Dacă le aveți pe toate în același mediu de lucru poate fi dezordonat și
+probabil că veți avea probleme cu versiunile conflictuale ale bibliotecii. 
+Codul dvs. ML pentru proiectul 1 are nevoie de versiunea 1.0 a numpy.
+
+Un mediu virtual ne permite să ne izolăm zonele de lucru pentru a evita aceste conflicte.
+În primul rând, instalați pachetele relevante:
+"sudo pip install virtualenv virtualenvwrapper"
+În continuarea accesati: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/ 
+pentru a configura în întregime mediul virtual.
+
+Grozav! Orice instalații de bibliotecă pe care le efectuați în variabila virtualenv 
+vor fi izolate acolo și nu vor intra niciodată în conflict cu alte medii! 
+
+(3) Instalați bibliotecile de învățare automată
+Acum putem instala bibliotecile ML! Vom merge cu cele mai des utilizate:
+---- [numpy]: pentru orice lucru cu matrice, în special operații matematice
+---- [scipy]: calcul științific și tehnic
+---- [pandas]: manipularea și analiza datelor
+---- [matplotlib]: vizualizarea datelor
+---- [scikit-learn]: învățare automată
+---- [SFrame]: integrată vizualizarea, manipularea și analiza datelor, cât și învățarea automată
+
+Ihaaa! Cu ajutorul pip veți instala toate pachetele enumerate utilizând pip install [nume_pachet].
+Felicitări, mediul dvs. este configurat și sunteți gata să faceți Machine Learning!
