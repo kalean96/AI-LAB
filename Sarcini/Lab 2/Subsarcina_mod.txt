@@ -54,4 +54,4 @@ Exemple de astfel de date: https://www.kaggle.com/datasets
 Un exeplu de CSV poate fi gasit si aici alaturi de subsarcina, si anume "people.csv".
 Incercati sa incarcati acest fisier utilizand biblioteca pandas(windows) sau turicreate(linux).
 
-Un exemplu de lucru cu fisierul utilizand pandas este dat in mapa Lab 2/pandas_csv.ipynb.
+Un exemplu de lucru cu fisierul utilizand pandas si turicreate este dat in mapa Lab 2/pandas_csv.ipynb || Lab 2/turicreate_csv.ipynb.
