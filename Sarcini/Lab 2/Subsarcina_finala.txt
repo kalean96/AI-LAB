@@ -1,0 +1,6 @@
+De analizat fisierul pandas_avansat.py/pandas_avansat.ipynb, iar la final fisierului sunt 5 susarcini mici de realizat.
+Laboratorul 2:
+-Instalare mediu de lucru cu Python si ML
+-Manipularea datelor utilizand numpy si pandas
+
+P.S. Cei care n-au gasit fisierul imbd_superhero.csv il gaseste in mapa dataset.
