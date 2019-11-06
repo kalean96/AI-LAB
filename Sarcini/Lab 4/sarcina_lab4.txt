@@ -1,0 +1,4 @@
+﻿1. Luați un set de date din repozitoriile prezentate în laboratorul 3 
+și adaptațil la o problemă de clasificare.
+2. Rezolvați această problemă utilizând arborii de decizei 
+(un exemplu este prezentat in fisierul 'arbori_de_decizii.ipynb/arbori_de_decizii.py') atasat in acest folder.
