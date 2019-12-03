@@ -1,0 +1,5 @@
+1. Rezolvati problema logica 'AND' pe o multime 
+de 3 elemente binare de intrare utilizand o 
+retea neuronala simpla - perceptronul.
+Setul de exemple de antrenare il generati automat.
+(Un exemplu de rezolvare pentru functia OR este dat in fisierul 'simpleNeuron.ipynb')
